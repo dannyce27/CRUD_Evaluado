@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/advent_pro_bold"
+        android:fontFamily="@font/archivo_black"
         android:text="Gestión de Tickets"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -21,5 +21,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.064" />
+
+    <EditText
+        android:id="@+id/txtNumeroTicket"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:hint="Ingrese el numero de ticket"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="150dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
